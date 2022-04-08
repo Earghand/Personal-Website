@@ -38,7 +38,7 @@
   }
 .projects .card .image {
     width: 40rem;
-    aspect-ratio: 2/1;
+    /* aspect-ratio: 2/1; */
     /* height: 60%; */
     
     text-align: center;
