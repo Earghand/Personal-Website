@@ -37,7 +37,8 @@
     /* margin-left:20px; */
   }
 .projects .card .image {
-    width: 40rem;
+    width: 100%;
+    height: 30rem;
     /* aspect-ratio: 2/1; */
     /* height: 60%; */
     
