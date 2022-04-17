@@ -1,7 +1,11 @@
-.heading {
+
+.header {
+    display:flex;
+}
+.header .heading {
     margin-left: 5%;
 }
-.heading #title {
+.header .heading #title {
     position: relative;
     font-size: 4rem;
     font-family: 'Montserrat', sans-serif;
@@ -10,49 +14,82 @@
     font-weight: 400;
     margin-bottom: 1vh;
 }
-.heading #introduction {
+.header .heading #introduction {
     font-family: 'Montserrat', sans-serif;
     font-size: 2rem;
     font-weight: 400;
-
 }
-.heading #name {
+.header .heading #name {
     font-size: 3rem;
     font-family: 'Montserrat', sans-serif;
 }
-
+.header #profile {
+    float: right;
+    /* padding-left:100px; */
+    margin-left: 5%;
+    height:30rem;
+    margin-top:1%;
+    border-radius: 10%;
+}
 .Experience {
     margin-top:5rem;
-    margin-left: 5%;
+    padding-left:5%;
+    padding-right:5%;
     font-family: 'Montserrat', sans-serif;
+    animation-name:rotate;
+    animation-duration:0.5s;
+    animation-fill-mode:forwards;
 }
+
 .projects { 
-    font-size: 1rem;
+    /* font-size: 1rem; */
+    background-size: contain;
     padding-top: 40px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    margin-right: 5%;
+    justify-content:center;
 }
 
+@keyframes rotate {
+    0%   { transform: scale(0.9,0.9); }
+    100% { transform: scale(1,1); }
+  }
 .projects .card {
+    /* font-size: 100%; */
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     /* width: 40rem; */
     transition: 0.3s;
+    margin-left:2%;
+    border-radius:2%;
     /* padding-left: 30px; */
-    margin-right: 2rem;
+    /* margin-right: 2em; */
     /* margin-left:20px; */
   }
+  .projects .card img {
+      width:100%;
+      border-radius:2%;
+  }
+
 
   
   /* On mouse-over, add a deeper shadow */
   .projects .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
+
+  .projects .card:active{
+    transform: scale(1.01,1.01);
+  }
+
   
   /* Add some padding inside the card container */
   .projects .container {
-    padding: 2px 16px;
+    /* padding: 2px 16px; */
+    font-size:80%;
+    text-overflow:ellipsis;
+    padding-left: 8%;
+    padding-right:8%;
+    padding-bottom:2%;
   }
