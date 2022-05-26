@@ -34,20 +34,32 @@
 }
 
 .Education {
-    padding-top:5%;
+    padding-top:7%;
     display:flex;
+    
     overflow: auto;
 }
 .Education #information{
     font-family: 'Montserrat', sans-serif;
-    padding-top:5%;
+    /* padding-top:5%; */
+    /* font-size:2rem; */
     margin-left:5%;
     font-weight:900;
 }
 
+.Education #information h1 {
+    font-weight:400;
+    border-style: solid;
+    border-bottom: thick line #cf2020;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size:4rem;
+}
+
 .Education img{
-    width:30%;
-    padding-left:5%;
+    width:40%;
+    padding-left:3%;
     float:right;
     display:block;
 }
