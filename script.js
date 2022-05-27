@@ -9,3 +9,4 @@ if(document.getElementById("team") != null) {
         location.href="teammate.html"
     }
 }
+
