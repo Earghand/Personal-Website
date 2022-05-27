@@ -9,7 +9,10 @@ body {
     border-bottom-right-radius: 5%;;
     overflow: hidden;
     font-family: 'Montserrat', sans-serif;
-    background-color: #7B9FCF;
+    background-color: #36669d;
+    background-image: linear-gradient(315deg, #36669d 0%, #d3d3d3 74%);
+    
+    /* background-color: #7B9FCF; */
     padding-top:0.3%;
     padding-bottom:0.3%;
     box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
@@ -20,7 +23,7 @@ body {
     padding-bottom:2%;
     padding-left:2%;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px;
     text-decoration: none;
