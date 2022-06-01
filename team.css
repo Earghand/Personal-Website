@@ -9,7 +9,7 @@ body {
     border-bottom-left-radius: 5%;
     border-bottom-right-radius: 5%;;
     overflow: hidden;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     
     /* background-color: #7B9FCF; */
     padding-top:0.3%;
@@ -53,7 +53,7 @@ body {
     text-align: center ;
     padding-top:5%;
     font-size: 2rem;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
 }
 
 .header #title {
@@ -71,25 +71,25 @@ body {
 
 .body #date{ 
     padding-left:20%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     font-weight:500;
     font-size:1.3rem;
 }
 
 .body #roles {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     font-weight:400;
     padding-left:20%;
 }
 
 .body #contributors {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     font-weight:500;
     padding-left:20%;
 }
 
 .body #tech {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     font-weight:500;
     padding-left:20%;
 }
@@ -101,7 +101,7 @@ body {
 .body .summary {
     font-size:1.2rem;
     padding-top:0.5%;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;    
     padding-left:20%;
     padding-right:20%;
 }
