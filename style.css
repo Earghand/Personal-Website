@@ -60,7 +60,7 @@ body {
     /* text-align: center; */
 }
 .header .heading #title {
-    font-size: 4rem;
+    font-size: 5rem;
     font-family: 'Roboto', sans-serif;    
     /* margin-top: 3%; */
     /* padding-bottom: 0.5rem; */
@@ -84,13 +84,12 @@ body {
     font-weight: 600;
 }
 .header .heading #name {
-    font-size: 6rem;
     font-weight:500;
     background: linear-gradient(#36669d 40%, #330867 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding-bottom:3%;
-    font-family: 'Roboto', sans-serif;    
+    font-family: 'Roboto', sans-serif; 
 }
 
 .work {
@@ -107,7 +106,7 @@ body {
     background: linear-gradient(#36669d 40%, #330867 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size:4.5rem;
+    font-size:2.5rem;
     font-weight: 500;
 }
 
