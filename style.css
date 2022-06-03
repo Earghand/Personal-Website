@@ -62,13 +62,10 @@ body {
 .header .heading #title {
     font-size: 5rem;
     font-family: 'Roboto', sans-serif;    
-    /* margin-top: 3%; */
-    /* padding-bottom: 0.5rem; */
     font-weight: 300;
     background: linear-gradient(#36669d 40%, #330867 80%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    /* margin-bottom: 1; */
 }
 
 .header .heading #introduction {
@@ -83,6 +80,9 @@ body {
     font-size: 2rem;
     font-weight: 600;
 }
+
+
+
 .header .heading #name {
     font-weight:500;
     background: linear-gradient(#36669d 40%, #330867 80%);
